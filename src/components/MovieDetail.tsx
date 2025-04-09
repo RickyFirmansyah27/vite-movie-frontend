@@ -58,7 +58,7 @@ export function MovieDetail({ movie, onClose }: MovieDetailProps) {
 
                 <div className="mt-4">
                   <p className="text-sm text-gray-500">
-                   Duration: {movie.duration}
+                   Duration: {movie.duration} minutes
                   </p>
                   <p className="text-sm text-gray-500">
                    Type: {movie.mpaaRating.type}
