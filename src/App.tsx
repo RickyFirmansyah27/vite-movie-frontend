@@ -30,7 +30,7 @@ function App() {
 
   useEffect(() => {
     setPage(1);
-  }, [size]);
+  }, [size, searchMovie, filters]);
 
   const handleNextPage = () => {
     if (page < totalPages) {

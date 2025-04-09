@@ -115,7 +115,7 @@ export function SearchBar({ onSearch, onFilterChange }: SearchBarProps) {
           </div>
 
           <div className="mb-4">
-            <h3 className="mb-2 font-medium text-gray-900">Minimum Rating</h3>
+            <h3 className="mb-2 font-medium text-gray-900">User Rating</h3>
             <input
               type="number"
               min="0"
