@@ -64,10 +64,10 @@ export function MovieDetail({ movie, onClose }: MovieDetailProps) {
                    Type: {movie.mpaaRating.type}
                   </p>
                   <p className="text-sm text-gray-500">
-                   Type: {movie.mpaaRating.label}
+                   Label: {movie.mpaaRating.label}
                   </p>
                   <div className="mt-2 flex flex-wrap gap-2">
-                    {movie.genre.map((g) => (
+                    Genre: {movie.genre.map((g) => (
                       <span
                         key={g}
                         className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800"
