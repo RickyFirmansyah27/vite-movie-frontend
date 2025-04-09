@@ -58,7 +58,13 @@ export function MovieDetail({ movie, onClose }: MovieDetailProps) {
 
                 <div className="mt-4">
                   <p className="text-sm text-gray-500">
-                    {movie.year} • {movie.duration}
+                   Duration: {movie.duration}
+                  </p>
+                  <p className="text-sm text-gray-500">
+                   Type: {movie.mpaaRating.type}
+                  </p>
+                  <p className="text-sm text-gray-500">
+                   Type: {movie.mpaaRating.label}
                   </p>
                   <div className="mt-2 flex flex-wrap gap-2">
                     {movie.genre.map((g) => (

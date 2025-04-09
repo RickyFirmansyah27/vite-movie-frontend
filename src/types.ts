@@ -4,6 +4,10 @@ export interface Movie {
   genre: string[];
   imgPath: string;
   description: string;
+  mpaaRating: {
+    type: string;
+    label: string;
+  }
   duration: string;
   userRating: number;
   trailerUrl: string;
